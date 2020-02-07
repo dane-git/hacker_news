@@ -1,0 +1,15 @@
+/* styles for hn news script*/
+
+body {
+background-color: #bcbcbc
+}
+li {
+list-style-type: none;
+}
+li a {
+    background-color: #f1f1f1;
+    border: 1px solid #d4d4d4;
+    list-style-type: none;
+    padding: 2px;
+    cursor: pointer;
+}
