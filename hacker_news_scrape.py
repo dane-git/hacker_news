@@ -117,7 +117,8 @@ for i in hacks1:
 
 print()
 
-with open(f'/home/Dhash_ad_1/news/{td_str}_Hacker_news.html', mode='a+') as my_file:
+
+with open(f'/home/dane/news/{td_str}_Hacker_news.html', mode='w+') as my_file:
     # first fill with basic html header;
     my_file.write(
         f'<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>Hacker News {td_str}</title>\n<meta name="description" content="The HTML5 Herald">\n<meta name="author" content="SitePoint">\n<link rel="stylesheet" href="css/styles.css">\n</head>\n<body>\n<script src="js/scripts.js"></script>')
